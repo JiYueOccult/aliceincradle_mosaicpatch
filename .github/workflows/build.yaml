@@ -2,6 +2,7 @@ name: Alice In Cradle Mosaic Patch
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build-and-test:
